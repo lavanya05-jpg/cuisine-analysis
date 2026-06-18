@@ -23,6 +23,8 @@ Restaurant dataset provided as part of the Cognifyz Data Analysis Internship.
 | Fast Food    | 1986  | 20.79%     |
 
 ## Bar Chart Visualization
+<img width="600" height="400" alt="Figure_1" src="https://github.com/user-attachments/assets/be014cb8-2ad6-4ae2-9c65-db70460fbfe1" />
+
 
 The following bar chart was created to visualize the distribution of the top three cuisines:
 
