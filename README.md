@@ -56,3 +56,35 @@ North Indian cuisine is the most popular cuisine in the dataset, accounting for 
 ## Author
 
 Lavanya Arya
+## Task 2: City Analysis
+
+### Objective
+- Identify the city with the highest number of restaurants in the dataset.
+- Calculate the average rating for restaurants in each city.
+- Determine the city with the highest average rating.
+
+### Approach
+1. Loaded the dataset using pandas (`dataset.csv`).
+2. Used `value_counts()` on the `City` column to count restaurants per city.
+3. Used `groupby('City')` on the `Aggregate rating` column to calculate average rating per city.
+4. Cross-checked the top average ratings against restaurant count per city, since cities with very few restaurants can show misleadingly high averages.
+
+### Results
+
+**City with the most restaurants:** New Delhi, with 5473 restaurants (by far the largest in the dataset, ahead of Gurgaon at 1118).
+
+**Average rating by city (top 5):**
+
+| City              | Average Rating | Restaurant Count |
+|-------------------|-----------------|-------------------|
+| Inner City        | 4.90            | 2                 |
+| Quezon City       | 4.80            | 1                 |
+| Makati City       | 4.65            | 2                 |
+| Pasig City        | 4.63            | 3                 |
+| Mandaluyong City  | 4.625           | 4                 |
+
+**City with the highest average rating:** Inner City (4.90), but this is based on only 2 restaurants, so it isn't statistically meaningful. Most top-rated cities in this dataset have very few restaurants. The most reliable high-rated city with a meaningful sample size is **London**, with an average rating of 4.535 across 20 restaurants.
+
+### Files
+- `task2_city_analysis.py` — analysis script
+- `dataset.csv` — dataset used
