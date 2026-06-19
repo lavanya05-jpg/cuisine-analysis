@@ -90,3 +90,21 @@ Lavanya Arya
 ### Files
 - `task2_city_analysis.py` — analysis script
 - `dataset.csv` — dataset used
+## Task 3: Price Range Distribution
+
+### Objective
+- Create a bar chart to visualize the distribution of price ranges among restaurants.
+- Calculate the percentage of restaurants in each price range category.
+
+### Approach
+1. Loaded the dataset using pandas (`dataset.csv`).
+2. Used `value_counts()` on the `Price range` column to count restaurants per category.
+3. Calculated each category's percentage of the total restaurant count.
+4. Created a bar chart using matplotlib, with percentage labels on top of each bar.
+
+### Results
+[Paste your actual counts/percentages here once shared]
+
+### Files
+- `task3_price_range.py` — analysis and chart script
+- `price_range_distribution.png` — output chart image
