@@ -108,3 +108,31 @@ Lavanya Arya
 ### Files
 - `task3_price_range.py` — analysis and chart script
 - `price_range_distribution.png` — output chart image
+## Task 4: Online Delivery
+
+### Objective
+- Determine the percentage of restaurants that offer online delivery.
+- Compare the average ratings of restaurants with and without online delivery.
+
+### Approach
+1. Loaded the dataset using pandas (`dataset.csv`).
+2. Used `value_counts()` on the `Has Online delivery` column to count restaurants in each category.
+3. Calculated the percentage of restaurants offering online delivery.
+4. Used `groupby('Has Online delivery')` on the `Aggregate rating` column to compare average ratings between the two groups.
+
+### Results
+
+**Percentage of restaurants offering online delivery:**
+- No online delivery: 74.34%
+- Has online delivery: 25.66%
+
+**Average rating comparison:**
+| Online Delivery | Average Rating |
+|------------------|------------------|
+| No               | 2.47             |
+| Yes              | 3.25             |
+
+Restaurants that offer online delivery have a noticeably higher average rating (3.25) compared to those that don't (2.47), a difference of nearly 0.8 points. Since both groups contain thousands of restaurants, this isn't a small-sample fluke like some results in Task 2, it's a meaningful pattern. This could be because delivery-enabled restaurants tend to be more established, more customer-focused, or operate in markets where customer experience standards (and review culture) are higher.
+
+### Files
+- `task4_online_delivery.py` — analysis script
