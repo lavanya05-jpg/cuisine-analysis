@@ -137,5 +137,3 @@ Restaurants that offer online delivery have a noticeably higher average rating (
 
 ### Files
 - `task4_online_delivery.py` — analysis script
-=======
->>>>>>> d4b0bd7e74839f51ab82ff952318ff524168b3fb
