@@ -103,11 +103,12 @@ Lavanya Arya
 4. Created a bar chart using matplotlib, with percentage labels on top of each bar.
 
 ### Results
-[Paste your actual counts/percentages here once shared]
+<img width="800" height="503" alt="task3 (1)" src="https://github.com/user-attachments/assets/f71589b2-ac82-469e-b853-53c21fe60900" />
 
 ### Files
 - `task3_price_range.py` — analysis and chart script
 - `price_range_distribution.png` — output chart image
+<<<<<<< HEAD
 ## Task 4: Online Delivery
 
 ### Objective
@@ -136,3 +137,5 @@ Restaurants that offer online delivery have a noticeably higher average rating (
 
 ### Files
 - `task4_online_delivery.py` — analysis script
+=======
+>>>>>>> d4b0bd7e74839f51ab82ff952318ff524168b3fb
