@@ -160,7 +160,7 @@ Identify common positive/negative review keywords and explore the relationship b
 ### Libraries Used
 `pandas`, `matplotlib`, `collections`git add README.md
 =======
->>>>>>> 6e1c7775311984416c4c6dbfd195dd3c10a5d7c1
+
 ## Level 3 - Task 2: Votes Analysis
 
 ### Objective
@@ -200,3 +200,4 @@ Analyze if there is a relationship between price range and availability of onlin
 
 ### Libraries Used
 `pandas`, `matplotlib`
+<img width="900" height="500" alt="level 3 task 3 (1)" src="https://github.com/user-attachments/assets/27f41c73-c0b3-434a-98fc-16b591786c9a" />
