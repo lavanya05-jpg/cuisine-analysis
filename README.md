@@ -159,5 +159,4 @@ Identify common positive/negative review keywords and explore the relationship b
 
 ### Libraries Used
 `pandas`, `matplotlib`, `collections`git add README.md
-=======
->>>>>>> 6e1c7775311984416c4c6dbfd195dd3c10a5d7c1
+<img width="800" height="400" alt="Figure_1 (3)" src="https://github.com/user-attachments/assets/d0639494-6f94-4241-b3b4-67974a1da94b" />
