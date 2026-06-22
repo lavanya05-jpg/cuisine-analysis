@@ -159,9 +159,6 @@ Identify common positive/negative review keywords and explore the relationship b
 
 ### Libraries Used
 `pandas`, `matplotlib`, `collections`git add README.md
-<<<<<<< HEAD
-<img width="800" height="400" alt="Figure_1 (3)" src="https://github.com/user-attachments/assets/d0639494-6f94-4241-b3b4-67974a1da94b" />
-=======
 =======
 >>>>>>> 6e1c7775311984416c4c6dbfd195dd3c10a5d7c1
 ## Level 3 - Task 2: Votes Analysis
@@ -184,4 +181,22 @@ Identify restaurants with highest and lowest votes, and analyze correlation betw
 
 ### Libraries Used
 `pandas`, `matplotlib`
->>>>>>> 1634386 (Add Level 3 Task 2 - Votes Analysis)
+## Level 3 - Task 3: Price Range vs Online Delivery & Table Booking
+
+### Objective
+Analyze if there is a relationship between price range and availability of online delivery and table booking. Determine if higher-priced restaurants are more likely to offer these services.
+
+### Key Columns Used
+- `Price range` – 1 (cheap) to 4 (expensive)
+- `Has Online delivery` – Yes/No
+- `Has Table booking` – Yes/No
+
+### Key Findings
+- Higher price range restaurants tend to offer more table booking
+- Online delivery is more common in mid-range restaurants
+
+### Output Files
+- `price_vs_services.png` – Bar chart of Price Range vs Online Delivery & Table Booking
+
+### Libraries Used
+`pandas`, `matplotlib`
