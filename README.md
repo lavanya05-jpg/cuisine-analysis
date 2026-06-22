@@ -108,7 +108,6 @@ Lavanya Arya
 ### Files
 - `task3_price_range.py` — analysis and chart script
 - `price_range_distribution.png` — output chart image
-<<<<<<< HEAD
 ## Task 4: Online Delivery
 
 ### Objective
@@ -137,5 +136,25 @@ Restaurants that offer online delivery have a noticeably higher average rating (
 
 ### Files
 - `task4_online_delivery.py` — analysis script
-=======
->>>>>>> d4b0bd7e74839f51ab82ff952318ff524168b3fb
+## Level 3 - Task 1: Restaurant Reviews Analysis
+
+### Objective
+Identify common positive/negative review keywords and explore the relationship between review length and rating.
+
+### Key Columns Used
+- `Rating text` – Categorical rating label
+- `Aggregate rating` – Numerical rating (0.0 to 5.0)
+- `Votes` – Used as a proxy for review length
+
+### Key Findings
+- Positive labels: Excellent, Very Good, Good
+- Negative labels: Average, Poor
+- Calculated correlation between Votes and Aggregate Rating
+
+### Output Files
+- `positive_keywords.png` – Bar chart of positive ratings
+- `negative_keywords.png` – Bar chart of negative ratings
+- `review_length_vs_rating.png` – Scatter plot of Votes vs Rating
+
+### Libraries Used
+`pandas`, `matplotlib`, `collections`git add README.md
